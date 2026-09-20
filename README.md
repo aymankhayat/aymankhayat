@@ -18,8 +18,9 @@ Most recently I spent five months as a Mechanical Engineering intern at Toyota C
 
 | Project | What it does | Engineering content |
 |---|---|---|
-| [substation-risk-simulator](https://github.com/aymankhayat/substation-risk-simulator) | Monte Carlo cost and schedule risk for a 40 MVA 132/33 kV transformer addition | Beta-PERT sampling, critical path re-solved per iteration, Iman-Conover correlated inputs, Spearman tornado sensitivity |
-| [process-traveler](https://github.com/aymankhayat/process-traveler) | Ranks CNC, injection moulding, casting, forging, sheet metal and 3D printing against a part's requirements | Process capability limits, tooling amortisation, break-even quantity analysis |
+| [material-properties-reference](https://github.com/aymankhayat/material-properties-reference) | Interactive reference for 27 engineering materials, from A36 through Ti-6Al-4V to PEEK and zirconia | Stress-strain behaviour by material class, Ashby selection charts, Fe-Fe₃C phase diagram with the lever rule, tempering response, ASTM E140 hardness conversion |
+| [substation-risk-simulator](https://github.com/aymankhayat/substation-risk-simulator) | Monte Carlo cost and schedule risk for a 40 MVA 132/33 kV transformer addition | Beta-PERT sampling, critical path re-solved per iteration, Iman-Conover correlated inputs, Spearman tornado sensitivity, verified against analytic test vectors |
+| [process-traveler](https://github.com/aymankhayat/process-traveler) | Ranks CNC, injection moulding, casting, forging, sheet metal and 3D printing against a part's requirements | Process capability limits, tooling amortisation, break-even quantity analysis, every figure carrying a source and a confidence label |
 | [renewable-energy-field-guide](https://github.com/aymankhayat/renewable-energy-field-guide) | Comparison of seven renewable sources with a solar array planner | Solar geometry: optimum fixed tilt by latitude, azimuth, inter-row shading pitch at winter solstice |
 | [tendra-h1-robotic-hand](https://github.com/aymankhayat/tendra-h1-robotic-hand) | Parametric tendon-driven robotic hand generated from a single Python script | Parametric geometry generation, linkage layout, bill of materials |
 | [capital-committee](https://github.com/aymankhayat/capital-committee) | Runs a capital decision past a simulated investment committee | NPV, IRR, tornado sensitivity on a capital expenditure case |
@@ -28,7 +29,7 @@ Most recently I spent five months as a Mechanical Engineering intern at Toyota C
 
 I've split these by what backs them, because "knows MATLAB" and "shipped a MATLAB model" are different claims.
 
-**Demonstrated in the repositories above:** JavaScript, TypeScript, React, Python, HTML and CSS, three.js, D3, Git, GitHub Actions, numerical methods (pseudo-random generation, inverse-CDF sampling, Cholesky factorisation), Monte Carlo simulation, critical path method, sensitivity analysis, engineering economics.
+**Demonstrated in the repositories above:** materials selection and mechanical behaviour, manufacturing process selection, solar geometry, Monte Carlo simulation, critical path method, sensitivity and correlation analysis, engineering economics, numerical methods (pseudo-random generation, inverse-CDF sampling, Cholesky factorisation), JavaScript, TypeScript, React, Python, three.js, D3, Git, GitHub Actions, automated testing.
 
 **From engineering coursework at UNIC:** SolidWorks, MATLAB, ANSYS, C, CAD, Microsoft Visio. Course projects include a solar water heating system modelled in SolidWorks with a MATLAB thermal model, and a strain-gauge cantilever load cell validated across 30+ calibration measurements to under 2% error. These are not yet represented by a repository here; putting a MATLAB and CAD project in public is my current priority.
 
